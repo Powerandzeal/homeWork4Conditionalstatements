@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
+        hw4Ex1();hw4Ex2();hw4Ex3();hw4Ex4();hw4Ex5();
     }
     public static void hw4Ex1() {
 
@@ -28,13 +28,13 @@ public class Main {
 
     }
     public  static void hw4Ex3(){
-        int year = 400;
+        int year = 2021;
 
         //boolean visokosnyYear=true ;
         if (year%4==0 && year % 100 != 0|| year%400==0) {
-            System.out.println(year+" является высокосным");
+            System.out.println(year+" является высокосным годом");
         }else {
-            System.out.println(year+" не является высокосным");
+            System.out.println(year+" не является высокосным годом");
         }
 
 
@@ -52,7 +52,7 @@ public class Main {
             deliviryDays++;
         }
 
-        System.out.println("Потребуется " +deliviryDays+   " дня");
+        System.out.println("На доставку потребуется " +deliviryDays+   " дня");
 
 
 
