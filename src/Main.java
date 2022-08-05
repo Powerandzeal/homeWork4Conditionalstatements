@@ -1,6 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        hw4Ex1();hw4Ex2();hw4Ex3();hw4Ex4();hw4Ex5();
+        hw4Ex1();//первое домашнее задание
+        hw4Ex2();//второе домашнее задание
+        hw4Ex3();//Третье домашнее задание
+        hw4Ex4();//Четвертое домашнее задание
+        hw4Ex5();//Пятое домашнее задание
     }
     public static void hw4Ex1() {
 
