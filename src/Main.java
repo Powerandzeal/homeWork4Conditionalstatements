@@ -41,7 +41,7 @@ public class Main {
         int year = 2021;
 
         //boolean visokosnyYear=true ;
-        if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
+        if ((year % 4 == 0 )&& (year % 100 != 0) || (year % 400 == 0)) {
             System.out.println(year + " является высокосным годом");
 
         } else {
